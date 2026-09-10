@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Rixanda — Admin</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <script>
+    netlifyIdentity.init({
+      APIUrl: "https://heartfelt-druid-139eb1.netlify.app/.netlify/identity"
+    });
+    // Send people straight to the login popup if they land here signed out
+    if (!netlifyIdentity.currentUser()) {
+      netlifyIdentity.on("init", user => {
+        if (!user) netlifyIdentity.open();
+      });
+    }
+  </script>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+</body>
+</html>

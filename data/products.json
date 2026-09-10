@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "your-first-planner",
+      "name": "Your first planner",
+      "category": "GoodNotes Templates",
+      "price": "7.00",
+      "description": "A short, honest description of the planner goes here — what it helps with, who it's for, and what makes it different. Two or three sentences is usually enough.",
+      "cover_image": "",
+      "file_url": ""
+    },
+    {
+      "id": "your-second-product",
+      "name": "Your second product",
+      "category": "Digital Stickers",
+      "price": "4.00",
+      "description": "A short description of this product.",
+      "cover_image": "",
+      "file_url": ""
+    }
+  ]
+}
