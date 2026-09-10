@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your first planner — Rixanda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav>
+  <a href="index.html" style="text-decoration:none;"><div class="logo">Rixanda</div></a>
+  <div class="nav-right">
+    <button class="icon-link">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    </button>
+    <a class="icon-link text-hide-mobile" href="wishlist.html">
+      <svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+      <span>Wishlist</span>
+    </a>
+    <button class="hamburger" onclick="document.getElementById('mmenu').classList.toggle('open')">
+      <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <div class="mobile-menu" id="mmenu">
+    <a href="#">All</a>
+    <a href="#">Digital Planners</a>
+    <a href="#">Digital Stickers</a>
+    <a href="wishlist.html">Wishlist</a>
+  </div>
+</nav>
+
+<a class="back-link" href="index.html">&larr; Back to shop</a>
+<div class="breadcrumb">
+  <a href="index.html">Home</a> / <a href="index.html">All</a> / <span id="pp-crumb-name">…</span>
+</div>
+
+<div class="product-page" id="pp-wrap">
+  <div>
+    <div class="pp-gallery-main" id="pp-image-wrap">
+      product cover image
+      <button class="pp-wish-btn" id="pp-wish-btn">
+        <svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div>
+    <p class="pp-category" id="pp-category">…</p>
+    <h1 class="pp-title display" id="pp-title">…</h1>
+    <p class="pp-price" id="pp-price">…</p>
+    <p class="pp-desc" id="pp-desc">…</p>
+
+    <div class="pp-actions">
+      <button class="btn-buy">Buy now — instant download</button>
+      <button class="btn-wish-outline" onclick="document.getElementById('pp-wish-btn').click();">
+        <svg viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg>
+      </button>
+    </div>
+
+    <div class="pp-meta">
+      <div class="pp-meta-row"><span>Format</span><span>PDF, hyperlinked</span></div>
+      <div class="pp-meta-row"><span>Compatible with</span><span>GoodNotes, Notability</span></div>
+      <div class="pp-meta-row"><span>Delivery</span><span>Instant, via email</span></div>
+      <div class="pp-meta-row"><span>Refunds</span><span>Not available after download</span></div>
+    </div>
+  </div>
+</div>
+
+<div class="related-heading">
+  <h2 class="display">You might also like</h2>
+</div>
+
+<div class="grid" id="related-grid"></div>
+
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="logo" style="font-size:18px;">Rixanda</div>
+      <p>Digital planners and stickers for GoodNotes, made for people who like to plan on their own terms.</p>
+    </div>
+    <div class="newsletter">
+      <h4>Get 10% off your first order</h4>
+      <form onsubmit="return false;">
+        <input type="email" placeholder="Your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <ul class="footer-links">
+      <li><a href="legal.html">Privacy Policy</a></li>
+      <li><a href="legal.html">Refund Policy</a></li>
+      <li><a href="legal.html">Terms of Service</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="payment-icons">
+      <span class="pay-chip">Visa</span>
+      <span class="pay-chip">Mastercard</span>
+      <span class="pay-chip">PayPal</span>
+    </div>
+  </div>
+</footer>
+
+
+<script src="products.js?v=2"></script>
+</body>
+</html>
