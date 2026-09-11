@@ -6,16 +6,18 @@
       "category": "GoodNotes Templates",
       "price": "7.00",
       "description": "A short, honest description of the planner goes here — what it helps with, who it's for, and what makes it different. Two or three sentences is usually enough.",
-      "cover_image": "/assets/uploads/1000002532.jpg",
-      "file_url": "/assets/uploads/Blue Notebook.pdf"
+      "cover_image": "",
+      "gallery": [],
+      "file_url": ""
     },
     {
       "id": "2planner",
       "name": "Learning notebook",
-      "category": "All",
+      "category": "GoodNotes Templates",
       "price": "8",
       "description": "Hh",
-      "cover_image": "/assets/uploads/1000002574.jpg",
+      "cover_image": "",
+      "gallery": [],
       "file_url": ""
     }
   ]
