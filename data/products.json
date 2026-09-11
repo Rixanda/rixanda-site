@@ -6,8 +6,11 @@
       "category": "GoodNotes Templates",
       "price": "7.00",
       "description": "A short, honest description of the planner goes here — what it helps with, who it's for, and what makes it different. Two or three sentences is usually enough.",
-      "cover_image": "",
-      "gallery": [],
+      "cover_image": "/rixanda-site/assets/uploads/1000002747.jpg",
+      "gallery": [
+        "/rixanda-site/assets/uploads/1000002746.jpg",
+        "/rixanda-site/assets/uploads/1000002745.jpg"
+      ],
       "file_url": ""
     },
     {
