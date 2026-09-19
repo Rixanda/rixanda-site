@@ -6,17 +6,9 @@
       "category": "GoodNotes Templates",
       "price": "7.00",
       "description": "A short, honest description of the planner goes here — what it helps with, who it's for, and what makes it different. Two or three sentences is usually enough.",
-      "cover_image": "/rixanda-site/assets/uploads/1000003242.png",
-      "gallery": [
-        "/rixanda-site/assets/uploads/1000003244.png",
-        "/rixanda-site/assets/uploads/1000003245.png",
-        "/rixanda-site/assets/uploads/1000003241.png",
-        "/rixanda-site/assets/uploads/1000003247.png",
-        "/rixanda-site/assets/uploads/1000003246.png",
-        "/rixanda-site/assets/uploads/1000003248.png",
-        "/rixanda-site/assets/uploads/1000003243.png"
-      ],
-      "file_url": "/rixanda-site/assets/uploads/Language Learning Journal.rar"
+      "cover_image": "",
+      "gallery": [],
+      "file_url": ""
     },
     {
       "id": "2planner",
