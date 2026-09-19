@@ -24,8 +24,14 @@
       "category": "GoodNotes Templates",
       "price": "8",
       "description": "Hh",
-      "cover_image": "/rixanda-site/assets/uploads/1000002728.jpg",
-      "gallery": [],
+      "cover_image": "/rixanda-site/assets/uploads/1.png",
+      "gallery": [
+        "/rixanda-site/assets/uploads/2.png",
+        "/rixanda-site/assets/uploads/3.png",
+        "/rixanda-site/assets/uploads/4.png",
+        "/rixanda-site/assets/uploads/5.png",
+        "/rixanda-site/assets/uploads/6.png"
+      ],
       "file_url": ""
     }
   ]
