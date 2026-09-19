@@ -39,7 +39,16 @@
       "price": "12",
       "description": "C",
       "cover_image": "/rixanda-site/assets/uploads/1000003259.png",
-      "gallery": [],
+      "gallery": [
+        "/rixanda-site/assets/uploads/1000003261.png",
+        "/rixanda-site/assets/uploads/1000003260.png",
+        "/rixanda-site/assets/uploads/1000003258.png",
+        "/rixanda-site/assets/uploads/1000003256.png",
+        "/rixanda-site/assets/uploads/1000003262.png",
+        "/rixanda-site/assets/uploads/1000003264.png",
+        "/rixanda-site/assets/uploads/1000003263.png",
+        "/rixanda-site/assets/uploads/1000003257.png"
+      ],
       "file_url": "/rixanda-site/assets/uploads/Life quest journal.rar"
     }
   ]
