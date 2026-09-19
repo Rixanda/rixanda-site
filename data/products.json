@@ -31,6 +31,16 @@
         "/rixanda-site/assets/uploads/6.png"
       ],
       "file_url": "/rixanda-site/assets/uploads/Language Learning Journal.rar"
+    },
+    {
+      "id": "H",
+      "name": "B",
+      "category": "V",
+      "price": "6",
+      "description": "C",
+      "cover_image": "",
+      "gallery": [],
+      "file_url": "/rixanda-site/assets/uploads/Life quest journal.rar"
     }
   ]
 }
