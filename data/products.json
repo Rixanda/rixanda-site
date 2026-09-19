@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "id": "LearningNotebook",
-      "name": "Night Learning Notebook",
+      "id": "LearningNoteboo",
+      "name": "Digital Study Journal",
       "category": "Free",
       "price": "0",
-      "description": "A short, honest description of the planner goes here — what it helps with, who it's for, and what makes it different. Two or three sentences is usually enough.",
+      "description": "A simple, hyperlinked PDF notebook designed to help you organize your study sessions and notes. Made with a cozy dark/sky aesthetic for quiet, focused learning.\n\n✨ WHAT’S INSIDE (1 Interactive PDF):\n\n•Session Tracker: Space to track study blocks (15–60 mins) and log completed sessions.\n\n•Knowledge Base: Pages to organize and tidy up your main notes.\n\n•Mind Map / Grid Pages: Blank layouts for diagrams, skill maps, or freeform writing.\n\n•Next Step Prompts: Small notes to write down where to start next time.\n\n•Hyperlinked Navigation: Clickable tabs to jump between sections and sessions.\n\n✨ DETAILS:\n•1x Hyperlinked PDF File\n•Undated & Reusable\n•Compatible with Goodnotes, Notability, Noteshelf, and other PDF annotation apps on iPad & tablets.",
       "cover_image": "/rixanda-site/assets/uploads/1000003255.png",
       "gallery": [
         "/rixanda-site/assets/uploads/1000003251.png",
