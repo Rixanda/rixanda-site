@@ -14,7 +14,8 @@
         "/rixanda-site/assets/uploads/1000003254.png",
         "/rixanda-site/assets/uploads/1000003250.png"
       ],
-      "file_url": "/rixanda-site/assets/uploads/digital learning journal.pdf"
+      "file_url": "/rixanda-site/assets/uploads/digital learning journal.pdf",
+      "buy_url": "https://secure.wayforpay.com/button/b49a4d270a94b"
     },
     {
       "id": "LanguagePlanner",
@@ -32,7 +33,8 @@
         "/rixanda-site/assets/uploads/1000003356.png",
         "/rixanda-site/assets/uploads/1000003359.png"
       ],
-      "file_url": "/rixanda-site/assets/uploads/Language Learning Journal.rar"
+      "file_url": "/rixanda-site/assets/uploads/Language Learning Journal.rar",
+      "buy_url": ""
     },
     {
       "id": "GamificatedPlanner",
@@ -51,7 +53,8 @@
         "/rixanda-site/assets/uploads/1000003263.png",
         "/rixanda-site/assets/uploads/1000003257.png"
       ],
-      "file_url": "/rixanda-site/assets/uploads/Life quest journal.rar"
+      "file_url": "/rixanda-site/assets/uploads/Life quest journal.rar",
+      "buy_url": ""
     }
   ]
 }
