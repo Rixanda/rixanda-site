@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thank you — Rixanda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<meta name="robots" content="noindex">
+<style>
+  .dl-wrap {
+    max-width: 560px; margin: 0 auto; padding: 80px 24px;
+    text-align: center;
+  }
+  .dl-icon { font-size: 40px; margin-bottom: 16px; }
+  .dl-title { font-size: 30px; margin: 0 0 14px; }
+  .dl-text { font-size: 14px; color: var(--text-soft); line-height: 1.7; margin: 0 0 30px; }
+  .dl-btn {
+    display: inline-block; background: var(--accent-soft); color: var(--bg);
+    font-weight: 700; font-size: 15px; padding: 15px 30px; border-radius: 6px;
+    text-decoration: none;
+  }
+  .dl-note { margin-top: 22px; font-size: 12px; color: var(--text-soft); }
+  .dl-note a { color: var(--text-soft); }
+</style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" style="text-decoration:none;"><div class="logo">Rixanda</div></a>
+</nav>
+
+<div class="dl-wrap">
+  <div class="dl-icon">✓</div>
+  <h1 class="dl-title display">Thank you for your purchase!</h1>
+  <p class="dl-text" id="dl-message">Loading your file…</p>
+  <a class="dl-btn" id="dl-button" href="#" style="display:none;">Download your file</a>
+  <p class="dl-note">A copy of this link was also sent to your email. Trouble downloading? Contact us at <a href="mailto:violetta.alien12@gmail.com">violetta.alien12@gmail.com</a>.</p>
+</div>
+
+<script src="products.js?v=2"></script>
+<script>
+  (function() {
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+    fetch('data/products.json')
+      .then(r => r.json())
+      .then(data => {
+        const p = (data.products || []).find(x => x.id === id);
+        const msgEl = document.getElementById('dl-message');
+        const btnEl = document.getElementById('dl-button');
+        if (p && p.file_url) {
+          msgEl.textContent = 'Your file — "' + p.name + '" — is ready.';
+          btnEl.href = p.file_url;
+          btnEl.setAttribute('download', '');
+          btnEl.style.display = 'inline-block';
+        } else {
+          msgEl.textContent = "We couldn't find that file automatically — but don't worry, just email us the order confirmation and we'll send it right over.";
+        }
+      });
+  })();
+</script>
+
+</body>
+</html>
